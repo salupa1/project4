@@ -1,0 +1,107 @@
+body {
+    font-family: "Marko One", Georgia, serif;
+    background-color: #E5AF3B;
+    margin: 0;
+    padding: 0;
+    color: #0c0c0b;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    font: bold 4em "Marko One", Georgia, serif;
+    color: olive;
+    text-shadow: 0.05em 0.05em .1em lightslategray;
+}
+
+h2 {
+    text-align: center;
+    font: bold 2em "Marko One", Georgia, serif;
+    color: olive;
+    text-shadow: 0.05em 0.05em .1em lightslategray;
+}
+
+p {
+    text-indent: 1em;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f18140;
+    color: #121111;
+    font: bold 0.75em "Marko One", Georgia, serif;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.container {
+    text-align: center; 
+}
+.image_home_page {
+    max-width: 100%;
+    height: auto; 
+}
+.outer_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.column {
+    width: 48%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-direction: column;
+    text-align: center;
+}
+.column img {
+    max-width: 100%;
+    height: auto; 
+}
+.image {
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+}
+.clear {
+    clear: both;
+  }
+
+.special_texts {
+    margin-left: 20%;
+    text-indent: 0%;
+    letter-spacing: 0.10em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+}
