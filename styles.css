@@ -52,16 +52,17 @@ nav {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007BFF;
-    color: white;
+    background-color: #e9b846;
+    color: rgb(20, 19, 19);
     border: none;
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
     display: inline-block;
 }
+
 .button:hover {
-    background-color: #0056b3;
+    background-color: #f8ae02;
 }
 .container {
     text-align: center; 
